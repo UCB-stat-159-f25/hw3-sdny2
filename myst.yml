@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 673c1fe4-61e2-48ca-af16-4ec5707eca84
+  title: STAT159 HW 3
+  # description:
+  # keywords: []
+  authors:
+    - name: Ligo Scientific Collaboration (LSC) and Seungwon (Sydney) Lee
+  
+  github: https://github.com/UCB-stat-159-f25/hw3-sdny2
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+  toc:
+    - file: README.md
+    - file: LOSC_Event_tutorial.ipynb
+  
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

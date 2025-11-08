@@ -1,2 +1,5 @@
 build/
 ligotools.egg-info/
+
+# MyST build outputs
+_build
