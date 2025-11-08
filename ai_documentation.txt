@@ -1,0 +1,28 @@
+# AI Documentation – STAT 159/259 Homework 3
+
+## Overview
+AI tools (ChatGPT) were used selectively during this assignment to resolve setup issues and clarify specific configuration steps.  
+All major implementation decisions, file organization, and testing were done independently.
+---
+
+## How AI Tools Were Used
+
+### 1. MyST Site Configuration
+When setting up the myst.yml file and deploying the site, I referred to AI guidance to confirm how to include only the README and main notebook in the Table of Contents.  
+AI explained the correct YAML structure and indentation rules, which helped me fix a formatting error that caused a build warning.
+
+### 2. GitHub Pages Deployment
+While deploying the MyST site, I encountered a “HttpError: Not Found” message in the GitHub Actions log.  
+AI helped me understand that the issue was due to missing GitHub Pages activation and guided me to enable Pages from the repository settings (source: GitHub Actions).  
+After applying the fix, the website successfully deployed.
+
+### 3. Makefile Troubleshooting
+I used AI to verify the correct syntax for the `env`, `html`, and `clean` targets in my Makefile.  
+AI confirmed that `conda env update --file environment.yml --prune --name ligo` and `myst build --html` were appropriate commands for this project.  
+The final Makefile was written and tested manually.
+
+### 4. Binder Link
+AI was used to confirm the correct URL pattern for adding the Binder badge to the README (with `HEAD?urlpath=%2Fdoc%2Ftree%2FLOSC_Event_tutorial.ipynb`).  
+I verified and inserted the link myself after testing that it opened properly.
+
+
